@@ -16,7 +16,7 @@ import java.util.UUID;
 @Data
 @MappedSuperclass
 @EntityListeners(AuditingEntityListener.class)
-public abstract class TempModel {
+public abstract class TemplateModel {
 
     @Id
     @Type(type = "org.hibernate.type.PostgresUUIDType")
