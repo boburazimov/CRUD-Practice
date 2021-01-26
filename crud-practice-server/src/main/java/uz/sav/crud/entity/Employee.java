@@ -18,12 +18,8 @@ public class Employee extends TemplateModel {
     private String fullName;
 
     @Column(nullable = false)
-    private UUID position_id;
-
-    @Column(nullable = false)
     private String phoneNumber;
 
-    @ManyToOne()
-    @JoinColumn(name = "position_id", referencedColumnName = "id")
+    @ManyToOne
     private Position position;
 }

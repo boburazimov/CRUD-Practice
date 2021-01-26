@@ -7,6 +7,6 @@ import uz.sav.crud.entity.Position;
 import uz.sav.crud.repository.rest.projection.CustomPosition;
 
 @CrossOrigin
-@RepositoryRestResource(path = "position", collectionResourceRel = "position", excerptProjection = CustomPosition.class)
+@RepositoryRestResource(path = "position", collectionResourceRel = "positions", excerptProjection = CustomPosition.class)
 public interface PositionRepo extends JpaRepository<Position, Integer> {
 }

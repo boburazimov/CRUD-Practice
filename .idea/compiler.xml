@@ -7,8 +7,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="crud-practice" />
         <module name="crud-practice-server" />
+        <module name="crud-practice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
