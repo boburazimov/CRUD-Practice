@@ -14,7 +14,7 @@ import javax.persistence.Table;
 @Table(name = "position")
 public class Position extends TemplateNameModel {
 
-//    @OneToOne(mappedBy = "employee")
-//    private Employee employee;
+    @OneToOne(mappedBy = "employee")
+    private Employee employee;
 
 }
