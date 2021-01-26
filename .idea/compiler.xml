@@ -7,15 +7,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="crud-practice" />
         <module name="crud-practice-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="crud-practice" target="1.8" />
       <module name="crud-practice-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="crud-practice" options="-parameters" />
       <module name="crud-practice-server" options="-parameters" />
     </option>
   </component>
