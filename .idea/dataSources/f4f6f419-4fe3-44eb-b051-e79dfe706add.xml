@@ -163,9 +163,9 @@
       <SchemaId>11</SchemaId>
     </extension>
     <sequence id="26" parent="17" name="position_id_seq">
-      <ObjectId>16637</ObjectId>
+      <ObjectId>16671</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>509</StateNumber>
+      <StateNumber>519</StateNumber>
       <SequenceIdentity>1..2147483647</SequenceIdentity>
       <CacheSize>1</CacheSize>
       <DataType>integer</DataType>
