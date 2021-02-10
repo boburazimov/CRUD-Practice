@@ -4,8 +4,6 @@ import lombok.*;
 import uz.sav.crud.entity.template.TemplateModel;
 
 import javax.persistence.*;
-import java.util.UUID;
-
 @EqualsAndHashCode(callSuper = true)
 @Data
 @AllArgsConstructor
