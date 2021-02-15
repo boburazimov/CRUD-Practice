@@ -7,17 +7,18 @@ import uz.sav.crud.entity.template.TemplateModel;
 
 import javax.persistence.*;
 import java.sql.Timestamp;
+import java.util.List;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
 @Entity
-public class Task extends TemplateModel {
+public class TaskEntity extends TemplateModel {
 
     @Column(nullable = false)
     private String name;
 
     @ManyToOne
-    private Organization organization;
+    private OrganizationEntity organizationEntity;
 
     @Column(nullable = false)
     private Timestamp inboxDate;
@@ -32,13 +33,14 @@ public class Task extends TemplateModel {
     private String littleContent;
 
     @OneToMany
-    private Employee leaderShip;
+    private List<EmployeeEntity> leaderShip;
 
     @ManyToMany
-    private Employee executor;
+    //@JoinTable(name = "employee_tasks", joinColumns = @JoinColumn(name = "task_id"), inverseJoinColumns = @JoinColumn(name = "employee_id"))
+    private List<EmployeeEntity> executor;
 
     @ManyToOne
-    private Employee mainExecutor;
+    private EmployeeEntity mainExecutor;
 
     @Column(nullable = false)
     private Timestamp expireDate;

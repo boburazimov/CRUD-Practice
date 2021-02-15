@@ -17,7 +17,7 @@ import javax.persistence.Enumerated;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity // Table in DB
-public class Users extends TemplateModel {
+public class UserEntity extends TemplateModel {
 
     @Column(nullable = false)
     private String userName;

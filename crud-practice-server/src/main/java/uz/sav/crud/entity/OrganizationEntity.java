@@ -10,7 +10,7 @@ import javax.persistence.Entity;
 @EqualsAndHashCode(callSuper = true)
 @Data
 @Entity
-public class Organization extends TemplateModel {
+public class OrganizationEntity extends TemplateModel {
 
     @Column(nullable = false)
     private String name;

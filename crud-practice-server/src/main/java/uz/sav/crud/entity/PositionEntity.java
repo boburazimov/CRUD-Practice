@@ -9,7 +9,7 @@ import javax.persistence.*;
 @EqualsAndHashCode(callSuper = true)
 @Data
 @Entity
-public class Position extends TemplateNameModel {
+public class PositionEntity extends TemplateNameModel {
 
 
 

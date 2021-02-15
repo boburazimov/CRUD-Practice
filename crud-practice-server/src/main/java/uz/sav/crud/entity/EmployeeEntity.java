@@ -10,7 +10,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 @Entity
 @Table(uniqueConstraints ={@UniqueConstraint(columnNames = {"fullName", "phoneNumber"})})
-public class Employee extends TemplateModel {
+public class EmployeeEntity extends TemplateModel {
 
     @Column(nullable = false)
     private String fullName;
@@ -19,5 +19,5 @@ public class Employee extends TemplateModel {
     private String phoneNumber;
 
     @ManyToOne
-    private Position position;
+    private PositionEntity position;
 }
