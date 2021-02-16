@@ -19,20 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2712a5a-8c5f-4e4f-ab62-e9bc3b755f8e" name="Default Changelist" comment="Task Entity">
-      <change afterPath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/controllers/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/controllers/PositionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/repositories/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/repositories/PositionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/services/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/services/PositionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="d2712a5a-8c5f-4e4f-ab62-e9bc3b755f8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/template/ResponseData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_4_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/EmployeeEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/Organization.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/OrganizationEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/PositionEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/TaskEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-practice-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crud-practice-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/controllers/PositionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/controllers/PositionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/PositionEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/PositionEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/template/TemplateNameModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/template/TemplateNameModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/repositories/PositionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/repositories/PositionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/repository/rest/PositionRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/repository/rest/projection/CustomPosition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/services/PositionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/services/PositionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-practice-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/crud-practice-server/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/crud-practice-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,20 +86,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/PositionEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/template/TemplateNameModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -107,12 +100,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/services/PositionService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="459">
+              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#289#290#0" expanded="true" />
                 <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#737#738#0" expanded="true" />
+                <element signature="e#832#833#0" expanded="true" />
+                <element signature="e#937#938#0" expanded="true" />
+                <element signature="e#1160#1161#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,35 +118,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/controllers/PositionController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="510">
+              <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1293#1294#0" expanded="true" />
+                <element signature="e#1360#1361#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/TaskEntity.java">
+        <entry file="file://$PROJECT_DIR$/crud-practice-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/OrganizationEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="27" column="24" selection-start-line="27" selection-start-column="27" selection-end-line="30" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -180,12 +164,24 @@
         <option value="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/Position.java" />
         <option value="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/repositories/EmployeeRepository.java" />
         <option value="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/services/EmployeeService.java" />
+        <option value="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/controllers/EmployeeController.java" />
         <option value="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/template/ResponseData.java" />
+        <option value="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/template/TemplateNameModel.java" />
+        <option value="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/repository/rest/projection/CustomPosition.java" />
+        <option value="$PROJECT_DIR$/crud-practice-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/PositionEntity.java" />
         <option value="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/repositories/PositionRepository.java" />
         <option value="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/services/PositionService.java" />
-        <option value="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/controllers/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/crud-practice-server/pom.xml" />
         <option value="$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/controllers/PositionController.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -199,8 +195,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -350,11 +346,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1613394932604" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1613477988729" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/crud-practice-server" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -404,7 +401,7 @@
       <workItem from="1611913305733" duration="673000" />
       <workItem from="1612962771247" duration="644000" />
       <workItem from="1613047638910" duration="10539000" />
-      <workItem from="1613390403308" duration="1765000" />
+      <workItem from="1613390403308" duration="12091000" />
     </task>
     <task id="LOCAL-00001" summary="First test commit">
       <created>1611252825149</created>
@@ -469,16 +466,24 @@
       <option name="project" value="LOCAL" />
       <updated>1612962463094</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="123">
+      <created>1613394990434</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1613394990434</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15023000" />
+    <option name="totallyTimeSpent" value="25349000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33041576" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1716418" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -488,7 +493,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.33261105" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43445286" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -553,7 +558,8 @@
     <MESSAGE value="Configure DB end" />
     <MESSAGE value="First Entity" />
     <MESSAGE value="Task Entity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task Entity" />
+    <MESSAGE value="123" />
+    <option name="LAST_COMMIT_MESSAGE" value="123" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" />
@@ -646,13 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/repository/rest/projection/CustomPosition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/repository/rest/PositionRepo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -667,14 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.4.3/spring-data-commons-2.4.3-sources.jar!/org/springframework/data/repository/CrudRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/template/ResponseData.java" />
     <entry file="file://$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/EmployeeEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -689,13 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="36" selection-start-column="36" selection-end-line="24" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crud-practice-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -729,33 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/template/TemplateNameModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/PositionEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/repositories/PositionRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="81" selection-start-line="7" selection-start-column="81" selection-end-line="7" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/services/EmployeeService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -770,15 +727,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/services/PositionService.java">
+    <entry file="file://$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/template/TemplateNameModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="255">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/repository/rest/projection/CustomPosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -792,12 +755,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/controllers/PositionController.java">
+    <entry file="file://$PROJECT_DIR$/crud-practice-server/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="153">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/PositionEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.4.3/spring-data-commons-2.4.3-sources.jar!/org/springframework/data/repository/CrudRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="72" column="16" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/entity/template/ResponseData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/repositories/PositionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.4.3/spring-data-jpa-2.4.3-sources.jar!/org/springframework/data/jpa/repository/JpaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/services/PositionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#1160#1161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crud-practice-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="27" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crud-practice-server/src/main/java/uz/sav/crud/controllers/PositionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#1360#1361#0" expanded="true" />
           </folding>
         </state>
       </provider>

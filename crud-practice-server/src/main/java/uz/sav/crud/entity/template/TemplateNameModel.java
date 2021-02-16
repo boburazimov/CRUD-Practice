@@ -15,4 +15,10 @@ public abstract class TemplateNameModel {
     @Column(nullable = false)
     private String name;
 
+    public TemplateNameModel() {
+    }
+
+    public TemplateNameModel(String name) {
+        this.name = name;
+    }
 }

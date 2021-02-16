@@ -11,6 +11,11 @@ import javax.persistence.*;
 @Entity
 public class PositionEntity extends TemplateNameModel {
 
+    public PositionEntity(String name) {
+        super(name);
+    }
 
+    public PositionEntity() {
+    }
 
-}
+    }
