@@ -37,5 +37,5 @@ public class PositionController {
         return new ResponseData<>(positionService.getAll());
     }
 
-    //nme Collectorsni ob tashadiz?
+
 }
